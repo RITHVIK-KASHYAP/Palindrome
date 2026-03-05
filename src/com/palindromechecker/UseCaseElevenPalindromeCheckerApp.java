@@ -29,6 +29,7 @@ public class UseCaseElevenPalindromeCheckerApp
 		 * 
 		 * @param args Command-line arguments.
 		 */
+		
 		PalindromeService palindromeService = new PalindromeService();
 		String input = "racecar";
 		boolean isPalindrome = palindromeService.checkPalindrome(input);
