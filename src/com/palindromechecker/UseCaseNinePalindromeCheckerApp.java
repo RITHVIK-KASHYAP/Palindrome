@@ -35,7 +35,8 @@ public class UseCaseNinePalindromeCheckerApp
 		System.out.println("Input: " + input);
 		boolean isPalindrome = check(input, 0, input.length()-1);
 		System.out.println("Is Palindrome ? " + isPalindrome);
-	}	
+	}
+	
 	/**
 	 * Recursively checks whether a string is palindrome.
 	 * 
@@ -44,6 +45,7 @@ public class UseCaseNinePalindromeCheckerApp
 	 * @param end ending index
 	 * @return true if palindrom, otherwise false
 	 */	
+	
 	private static boolean check(String s, int start, int end) 
 	{
 		if (start >= end) 
